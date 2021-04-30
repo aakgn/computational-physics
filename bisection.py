@@ -37,16 +37,3 @@ class Bisection:
                 x = "error"
         
         return x
-
-
-
-error_margin = 1e-7
-x1 = 0
-x2 = 1
-N = 1000
-
-
-function_input = "x * x - 9"
-function = lambda x: eval(function_input)
-root1 = Bisection(x1, x2, N, error_margin, function)
-print(root1.broot(x1, x2, N, error_margin))
