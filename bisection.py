@@ -34,7 +34,7 @@ class Bisection:
                 break
             
             if (i == N - 1):
-                x = -1
+                x = "error"
         
         return x
 
@@ -42,7 +42,7 @@ class Bisection:
 
 error_margin = 1e-7
 x1 = 0
-x2 = 100
+x2 = 1
 N = 1000
 
 
